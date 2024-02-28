@@ -1,0 +1,118 @@
+#navbar{
+    height:60px;
+    background-color:white;
+    
+    }
+#logo{
+    font-size:40px;
+    color:rgb(153, 150, 150);
+    font-family: monospace;
+    padding-right: 240px;
+}
+a{
+    padding-left:30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    
+}
+.steel{
+    background-image: url('../images/steel.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: #050505;
+    height: 768px;
+    text-align: centre;
+    padding-left: 300px;
+    padding-top: 60px;
+}
+h1{
+    padding-right: 60px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Changa One";
+    letter-spacing: 6px;
+    font-size: 72px;
+    
+    color:white;
+    margin-bottom: 0%;
+
+}
+p{
+    font-family:'Open Sans',sans-serif;
+    margin-top: 0%;
+    color: white;
+    font-size: 20px;
+}
+
+.steel h1,
+.steel a,
+.steel p {
+    padding-left: 5%;
+
+}
+.btn{
+    font-family:'Open Sans',sans-serif;
+    background-color: white;
+    height: 35px;
+    width: 100px;
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color:#050505;
+    border:1px solid white;
+    text-align: center;
+    margin: 4px 2px;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: 20px;
+    margin-right: 350px;
+    
+}
+.btn:hover {
+    background-color: #b9b9b9;
+}
+.container{
+    background-color: #050505;
+    width:100%;
+    height:330px;
+    display:flex;
+    display:inline-block;
+   
+    margin: 0%;
+
+}
+.img{
+    background-color: white;
+    height:270px;
+    width:330px;
+    padding-left: 25px;
+    padding-top: 26px;
+    padding-bottom: 40px;
+    margin-left: 50px;
+    position:relative;
+    top:-20%;
+    display:inline-block;
+}
+.img>p{
+    color:#050505;
+    font-size: 25px;
+
+}
+footer{
+    background-color:rgb(53, 52, 52) ;
+    height:200px;
+    width:100%;
+    margin: 0%;
+    text-align: center;
+    display:flex;
+    display:inline-block;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+footer>p{
+    font-size: 16px;
+}
